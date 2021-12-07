@@ -14,20 +14,28 @@ from not sharing with competing vendor organizations.
 
 # Life cycle of transactions:
 => Government departments announces new project/contract for inviting bids and announces last date for submitting the same.
+
 => Companies review them and submit their bids before last date.
+
 => Bids can be updated any number of times before the last date, giving them the flexibility based on ground work
 done by vendors.
+
 => Bids submitted by individual vendors will not be shared with other vendors participating in bidding process.
+
 => In unusual/contingency cases, last date for submitting bids can be changed by Government but only after all vendors 
 agree for the same.
 
 # Chaincode operations:
 Government announces new project/contract work.
+
 List active projects announced by Government.
+
 Change bid date.
 
 List projects for which bids submitted by a particular Vendor organization.
+
 Submit bid along with quote.
+
 update bid with revised quote.
 
 # Asset model to be tracked in Blockchain ledger:
