@@ -248,7 +248,6 @@ func verifyClientOrgMatchesPeerOrg(ctx contractapi.TransactionContextInterface) 
 	
 // getClientOrgID gets the client org ID.
 // The client org ID can optionally be verified against the peer org ID, to ensure that a client from another org doesn't attempt to read or write private data from this peer.
-// The only exception in this scenario is for TransferMarble, since the current owner needs to get an endorsement from the buyer's peer.
 func getClientOrgID(ctx contractapi.TransactionContextInterface, verifyClientOrgMatchesPeerOrg bool) (string, error) {
 
 	clientOrgID, err := ctx.GetClientIdentity().GetMSPID()
