@@ -34,13 +34,15 @@ List active projects announced by Government **[ListAllContracts]**
 
 List Submitted bids by a vendor **[QueryBidPrivate]**
 
-Change bid date.
-
 List projects for which bids submitted by a particular Vendor organization **[ListAllBids]**
+***To Do: Submitted bids should be viewed by Government only after last date***
 
 Submit bid along with quote **[CreateBid]**
 
-update bid with revised quote
+***To be Implemented***
+update bid with revised quote 
+Change bid date
+Finalize contract and award to successful Vendor
 
 # Asset model to be tracked in Blockchain ledger:
 project id, project name, description, last date, state(active/closed)
