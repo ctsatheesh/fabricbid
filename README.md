@@ -20,7 +20,9 @@ from not sharing with competing vendor organizations.
 => Bids can be updated any number of times before the last date, giving them the flexibility based on ground work
 done by vendors.
 
-=> Bids submitted by individual vendors will not be shared with other vendors participating in bidding process.
+=> Bids submitted by individual vendors will not be shared with other vendors participating in bidding process. This is
+done by using implicit private data collection. More the vendor organizations onboard, explicit private data collection
+will become maintenance hassle and hence preferred implicit way.
 
 => In unusual/contingency cases, last date for submitting bids can be changed by Government but only after all vendors 
 agree for the same.
