@@ -21,24 +21,26 @@ from not sharing with competing vendor organizations.
 done by vendors.
 
 => Bids submitted by individual vendors will not be shared with other vendors participating in bidding process. This is
-done by using implicit private data collection. More the vendor organizations onboard, explicit private data collection
-will become maintenance hassle and hence preferred implicit way.
+done by using **implicit private data collection**. More the vendor organizations onboard, explicit private data collection
+will become maintenance hassle and hence preferred **implicit** way.
 
 => In unusual/contingency cases, last date for submitting bids can be changed by Government but only after all vendors 
 agree for the same.
 
 # Chaincode operations:
-Government announces new project/contract work.
+Government announces new project/contract work **[CreateContract]**
 
-List active projects announced by Government.
+List active projects announced by Government **[ListAllContracts]**
+
+List Submitted bids by a vendor **[QueryBidPrivate]**
 
 Change bid date.
 
-List projects for which bids submitted by a particular Vendor organization.
+List projects for which bids submitted by a particular Vendor organization **[ListAllBids]**
 
-Submit bid along with quote.
+Submit bid along with quote **[CreateBid]**
 
-update bid with revised quote.
+update bid with revised quote
 
 # Asset model to be tracked in Blockchain ledger:
 project id, project name, description, last date, state(active/closed)
