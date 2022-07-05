@@ -35,6 +35,7 @@ List active projects announced by Government **[ListAllContracts]**
 List Submitted bids by a vendor **[QueryBidPrivate]**
 
 List projects for which bids submitted by a particular Vendor organization **[ListAllBids]**
+
 ***To Do: Submitted bids should be viewed by Government only after last date***
 
 Submit bid along with quote **[CreateBid]**
